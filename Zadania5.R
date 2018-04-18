@@ -1,17 +1,23 @@
+library(tidyverse)
+library(dplyr)
+
+
+
+#zadanie 5-1
 library(readr)
-movies <- read_csv("Zajęcia 5/movies.csv")
+movies <- read_csv("movies.csv")
 View(movies)
 
-#Zadanie 5-2
-filter(movies, year == 2005, Comedy)
-
-#Zadanie 5-3
+#zadanie5-2
+filter(movies, Comedy, year == 2005)
 
 
-#Zadanie 5-4
-filter(movies, year == 1990, rating, Animation) %>%
-arrange()
+#zadanie5-3
+select(movies, title, year, budget) %>% 
+  arrange(desc(budget))
 
-#Zadanie 5-5
-filter(movies, length, Drama)%>%
-  arrange()
+
+#zadanie 5-4
+filter(movies, Animation, year == 1990) %>% 
+  arrange(desc(rating))
+
