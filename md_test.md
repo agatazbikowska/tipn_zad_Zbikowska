@@ -29,4 +29,17 @@ Listy numerowane tworzymy poprzez numerki
 
 ### Teraz robimy linki
 
-[Strona GUMedu] (https://duckduckgo.com/?q=%C5%BCart+mem&atb=v113-2_g&iar=images&iax=images&ia=images&iai=http%3A%2F%2Fpl.memgenerator.pl%2Fmem-image%2Fhahahahaha-dobry-zart-pl-ffffff)
+[Strona GUMedu](http://gumed.edu.pl)
+
+### Teraz dodajemy obrazki 
+
+![Psiak](https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fs-media-cache-ak0.pinimg.com%2F736x%2F8b%2F57%2F38%2F8b57384734029b348c2bbf3f6e79dccb.jpg&f=1)
+
+![Kicia](https://images.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FtrYrikHoKu2OI%2Fgiphy.gif&f=1)
+
+
+### Kod programistyczny dodajemy przez tiki `
+```r
+library(tidyverse)
+````
+
