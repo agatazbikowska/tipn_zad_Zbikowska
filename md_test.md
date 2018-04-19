@@ -29,4 +29,4 @@ Listy numerowane tworzymy poprzez numerki
 
 ### Teraz robimy linki
 
-[Strona GUMedu] (http.//https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fpl.memgenerator.pl%2Fmem-image%2Fhahahahaha-dobry-zart-pl-ffffff&f=1)
+[Strona GUMedu] (https://duckduckgo.com/?q=%C5%BCart+mem&atb=v113-2_g&iar=images&iax=images&ia=images&iai=http%3A%2F%2Fpl.memgenerator.pl%2Fmem-image%2Fhahahahaha-dobry-zart-pl-ffffff)
