@@ -54,7 +54,7 @@ library(tidyverse)
 
 ### Cytaty zaczynamy od takiego > o czegoś
 
-> “There is only one thing that makes a dream impossible to achieve: the fear of failure.” 
+> *“There is only one thing that makes a dream impossible to achieve: the fear of failure.”*
 ― Paulo Coelho, The Alchemist
 
 
