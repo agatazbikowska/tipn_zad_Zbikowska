@@ -51,4 +51,10 @@ library(tidyverse)
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
+Cytaty zaczynamy od takiego > o czegoś
+
+> “There is only one thing that makes a dream impossible to achieve: the fear of failure.” 
+― Paulo Coelho, The Alchemist
+
+
 
