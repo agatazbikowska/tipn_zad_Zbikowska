@@ -25,3 +25,8 @@ Aby stworzyć punktowanie klikamy **"*"** lub **+** lub **-**
 Listy numerowane tworzymy poprzez numerki 
 1. pierwszy 
 2. drugi
+2. trzeci
+
+### Teraz robimy linki
+
+[Strona GUMedu] (http.//https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fpl.memgenerator.pl%2Fmem-image%2Fhahahahaha-dobry-zart-pl-ffffff&f=1)
