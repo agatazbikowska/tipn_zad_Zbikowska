@@ -1,0 +1,75 @@
+---
+title: "Fotografia"
+author: "Agata Żbikowska"
+output:
+      html_document:
+          theme: spacelab
+          highlight: textmate   
+df_print: paged
+
+---
+
+#Zdjęcia które robię
+
+Od kilku lat amatorsko zajmuję się fotografią. Lubię robić zdjęcia *naturze* oraz *zdjęcia portretowe*.
+
+Zdjęcia robię:
+
+1.Lustrzanką 
+2.Aparatem analogowym
+3.Aparatem cyfrowym 
+4.Telefonem
+
+##Podstawy fotografii
+
+Kiedy miałam 14 lat dostałam mój pierwszy profesjonalny aparat - **lustrzankę Canon 20D**. Od tamtej pory staram się nie fotografować używając automatycznych ustawień, ale takich rzeczy jak: 
+
+Zasada działania czułości ISO. Czułość ISO określa wrażliwość matrycy na światło - i tyle, nie ma tu więcej magii. W większości amatorskich aparatów czułość zaczyna się od ISO 100 lub 200, a kończy na ISO 25600. Oczywiście to bardzo umowna granica, bo są aparaty, które oferują inny zakres czułości. Jednak jaki wpływ na wygląd zdjęć na zmiana czułości? Tu zasada jest równie prosta - przy niskich czułościach obraz będzie gładki, a z każdym krokiem w górę, jakość będzie się pogarszać - pojawią się szumy, spadnie szczegółowość, dynamika, nasycenie i kontrast.
+
+Poza wartością ISO bardzo ważne są:
+
++ Przysłona
++ Czas naświetlania
+
+Te trzy wartości tworzą *trójkąt ekspozycji*
+
+
+###Istnieje bardzo dużo stron o podstawach fotografii
+[Blog o fotografowaniu](http://www.green-design-blog.com.pl/podstawy-fotografii-czas-naswietlania-przyslona-iso/)
+
+####Przedstawiam spis ważniejszych wydarzeń w historii fotografii 
+
+| Rok           | Wydarzenie                          |
+| ------------- |:-----------------------------------:| 
+| 1556          | Georg Fabricius zauważył, że chlorek srebra zaczernia się pod wpływem promieni słonecznych.|
+| 1725          | Johann Heinrich Schulze uzyskał pierwsze odwzorowanie obrazu na emulsji światłoczułej sporządzonej z chlorku srebra na podkładzie z białej kredy.|
+| 1827          | Powstała pierwsza fotografia, stworzona przez Francuza Josepha-Nicéphore’a Niepce’a na wypolerowanej płycie metalowej.|    
+
+Aby stworzyć wykres ilości pikseli zawartych w konkretnym rozmiarze zdjęcia muszę użyć min funkcji:
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+plot
+```
+
+Trochę nie do końca wiem jaką mogę wstawić tabelkę odnośnie fotografii więc wstawiam tabelkę odnośnie silników samochodowych
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library(tidyverse)
+ggplot(data = mpg) +
+  geom_bar(mapping = aes(x = class, fill = class)) +
+  labs(title = "Klasy samochodów", x = "Klasa", y = "Liczebność")
+```
+
+```{r message=FALSE, warning=FALSE}
+library(tidyverse)
+data(diamonds)
+select(diamonds, color)
+```
+
+```{r message=FALSE, warning=FALSE, include=FALSE}
+for(year in 1800:2018) {
+  if(((year %% 4) == 0) & ((year %% 100) != 0) | ((year %% 400) == 0))
+   print(year)
+}
+```
+
