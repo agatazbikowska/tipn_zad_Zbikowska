@@ -18,7 +18,7 @@ select(movies, title, year, budget) %>%
 
 
 #zadanie 5-4
-filter(movies, Animation, year == 1990) %>% 
+filter(movies, Animation, ((year >= 1990) & (year <= 1999))) %>% 
   arrange(desc(rating))
 
 
